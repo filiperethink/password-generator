@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper-text">
+        <h1 id="password-display" class="password-display"></h1>
+      </div>
+      <div class="form-group">
+        <p>Número de caracteres:</p>
+        <input
+          id="password-length"
+          type="number"
+          class="input-number"
+          min="6"
+          value="10"
+        />
+      </div>
+      <div class="container-options" id="options">
+        <div>
+          <input checked type="checkbox" id="uppercase" />
+          <label for="uppercase">Maiúscula</label>
+        </div>
+        <div>
+          <input checked type="checkbox" id="lowercase" />
+          <label for="lowercase">Minúscula </label>
+        </div>
+        <div>
+          <input type="checkbox" id="numbers" />
+          <label for="numbers">Números</label>
+        </div>
+        <div>
+          <input type="checkbox" id="specialChars" />
+          <label for="specialChars">Símbolos</label>
+        </div>
+      </div>
+      <button class="btn-generator" id="generate-password">
+        Gerar senha segura!
+      </button>
+    </div>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html>
