@@ -24,8 +24,8 @@ Esse projeto foi criado para o curso de javascript do Rethink Academy, a ideia p
 
 ### TODO:
 
-⬜️ Criar botão para Copiar e Colar aenha gerada.
-⬜️ Pesquisar e implementar outros padrôes de validação.
+⬜️ Criar botão para Copiar e Colar aenha gerada.\
+⬜️ Pesquisar e implementar outros padrôes de validação.\
 ⬜️ Pesquisar como gerar via javascript os padroes de validação (https://developer.mozilla.org/pt-BR/docs/Web/API/Document/characterSet)
 
 ## Funcionalidades
